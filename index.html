@@ -390,22 +390,589 @@
             </div>
         </div>
 
-        <div class="modal fade" id="method2Modal" tabindex="-1" role="dialog" aria-labelledby="method2ModalLabel"
+        <div class="modal fade" id="method4Modal" tabindex="-1" role="dialog" aria-labelledby="method4ModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="method2ModalLabel">Metódus 2 - Példa</h5>
+                        <h5 class="modal-title" id="method4ModalLabel">Fill()</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>Részletes leírás a Metódus 2-ről.</p>
+                        <p>
+                            <pre><code>
+                            Első példa: Az első elemet töltjük fel 1-el
+
+                            const array1 = [1, 2, 3, 4, 5];
+                            array1.fill(0, 1);
+                            
+                            console.log(array1); 
+                            // Output: [1, 0, 0, 0, 0]
+
+                            Második példa: A második és harmadik elemet töltjük fel 1-el
+
+                            const array2 = [1, 2, 3, 4, 5];
+                            array2.fill(1, 1, 3);
+
+                            console.log(array2); 
+                            // Output: [1, 1, 1, 4, 5]                            
+                        </code></pre>
+                    </p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="method5Modal" tabindex="-1" role="dialog" aria-labelledby="method5ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method5ModalLabel">Filter()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                            const number = [12, 10, 21, 35, 54];
+                            number.filter(newNumber);
+                            function newNumber(num){
+                                return num >= 15;
+                            };
+
+                            // Output: [21, 35, 54]                           
+                        </code></pre>
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method6Modal" tabindex="-1" role="dialog" aria-labelledby="method6ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method6ModalLabel">Find()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                            const number = [1, 2, 3, 4, 5];
+                            
+                            function even(num){
+                                return num > 3;
+                            }
+                            
+                            console.log(number.find(even));                            
+
+                            // Output: [4]  
+                         </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method7Modal" tabindex="-1" role="dialog" aria-labelledby="method7ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method7ModalLabel">FindIndex()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                const number = [12, 23, 35, 41, 59];
+                                
+                                function search(num){
+                                    return num > 13;
+                                }
+                                
+                                console.log(number.findIndex(search));                            
+    
+                                // Output: [1]  
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="method8Modal" tabindex="-1" role="dialog" aria-labelledby="method8ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method8ModalLabel">ForEach()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                const number = [11, 34, 65, 41, 59];
+                                
+                                number.forEach(function(num){
+                                    console.log(num);
+                                });                       
+                                 // Output: [11, 34, 65, 41, 59]  
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method9Modal" tabindex="-1" role="dialog" aria-labelledby="method9ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method9ModalLabel">From()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                const str = 'Hello';
+                                const strArray = Array.from(str);
+    
+                                console.log(strArray); 
+                                // Output: ['H', 'e', 'l', 'l', 'o']
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method10Modal" tabindex="-1" role="dialog" aria-labelledby="method10ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method10ModalLabel">Includes()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                const number = [1, 2, 3, 4, 5, 6, 7, 8]
+                                const num = number.includes(5);
+    
+                                console.log(num);
+                                // Output: true
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method11Modal" tabindex="-1" role="dialog" aria-labelledby="method11ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method11ModalLabel">IndexOf()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                Numbers:
+                                const number = [13, 43, 52, 94, 78,]
+                                const num = number.indexOf(94);
+                                console.log(num);
+                                // Output: 3
+                                
+                                Stringel:
+                                const str = 'Hello, world!';
+                                const indexOfWorld = str.indexOf('world');                            
+                                console.log(indexOfWorld); 
+                                // Output: 7
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method12Modal" tabindex="-1" role="dialog" aria-labelledby="method12ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method12ModalLabel">isArray()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                const number = [1, 2, 3, 4,]
+                                const num = 'Hello, world!';
+    
+                                console.log(Array.isArray(number));
+                                console.log(Array.isArray(num));
+                                // Output: true
+                                // Output: false
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method13Modal" tabindex="-1" role="dialog" aria-labelledby="method13ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method13ModalLabel">Join()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                const number = [1, 2, 3, 4,]
+                                const joinNum = number.join(' and ');
+    
+                                console.log(joinNum);
+                                // Output: 1 and 2 and 3 and 4
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method14Modal" tabindex="-1" role="dialog" aria-labelledby="method14ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method14ModalLabel">Keys()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code> 
+                                Array:
+                                const number = [1, 2, 3, 4, 5];
+                                const num = Object.keys(number);
+                                console.log(num);
+                                // Output: ['0', '1', '2', '3', '4']
+    
+                                Object:
+                                const obj = { 0: "a", 1: "b", 2: "c" };
+                                const keys = Object.keys(obj)
+                                console.log(keys);
+                                // Output: ['0', '1', '2']                            
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method15Modal" tabindex="-1" role="dialog" aria-labelledby="method15ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method15ModalLabel">lastIndexOf()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>  
+                                Numbers:                           
+                                const number = [1, 2, 3, 4, 2, 5];
+                                const num = number.lastIndexOf(2);
+                                console.log(num);
+                                // Output: 4
+    
+                                Stringben:
+                                const str = 'Hello World!';
+                                const lastindexofstr = str.lastIndexOf('l');
+                                console.log(lastindexofstr);
+                                // otuput: 9                   
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method16Modal" tabindex="-1" role="dialog" aria-labelledby="method16ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method16ModalLabel">length()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>  
+                                Numbers:                           
+                                const number = [1, 2, 3, 4, 2, 5];
+                                const num = number.length;
+                                console.log(num);
+                                // Output: 6
+    
+                                Stringben:
+                                const str = 'Hello World!';
+                                const strLength =  str.length;
+                                console.log(strLength);
+                                // otuput: 12                 
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="method17Modal" tabindex="-1" role="dialog" aria-labelledby="method17ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method17ModalLabel">Map()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 2, 5];
+                                const arr = number.map(myFunction);
+                                
+                                function myFunction(num) {
+                                    return num * 2;
+                                }
+                                console.log (arr)
+                                // Output: [2, 4, 6, 8, 4, 10]
+    
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method18Modal" tabindex="-1" role="dialog" aria-labelledby="method18ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method18ModalLabel">pop()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 5];
+                                const num = number.pop();
+                                console.log (num)
+                                // Output: [5]
+                                console.log (number)
+                                // Output: [1, 2, 3, 4]
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method19Modal" tabindex="-1" role="dialog" aria-labelledby="method19ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method19ModalLabel">push()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 5];
+                                const num = number.push(6, 7, 8);
+                                console.log(num);
+                                // Output: [1, 2, 3, 4, 5, 6, 7, 8]                            
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="method20Modal" tabindex="-1" role="dialog" aria-labelledby="method20ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method20ModalLabel">shift()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 5];
+                                const num = number.shift();
+                                console.log(num);
+                                // Output: [1]   
+                                console.log(number);  
+                                // Output: [2, 3, 4, 5,]                       
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="method21Modal" tabindex="-1" role="dialog" aria-labelledby="method21ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method21ModalLabel">slice()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 5];
+                                const num = number.slice(1, 4);
+                                console.log(num);
+                                // Output: [2, 3, 4]                                                
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="method22Modal" tabindex="-1" role="dialog" aria-labelledby="method22ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method22ModalLabel">some()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 5];
+                                const num = number.some(function(element){
+                                    return element == 2;
+                                });
+                                console.log(num);
+                                // Output: True                                          
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="method23Modal" tabindex="-1" role="dialog" aria-labelledby="method23ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method23ModalLabel">splice()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                                const num = number.splice(2, 2, 11, 13);                         
+                                console.log(num);                            
+                                // Output: [3, 4]
+                                console.log(number) 
+                                // Output: [1, 2, 11, 13, 5, 6, 7, 8, 9, 10]                                     
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="method24Modal" tabindex="-1" role="dialog" aria-labelledby="method24ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="method24ModalLabel">unshift()</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <pre><code>                                                         
+                                const number = [1, 2, 3, 4, 5, 6];
+                                const num = number.unshift(12, 25, 36);                         
+                                console.log(number);                            
+                                // Output: [12, 25, 36, 1, 2, 3, 4, 5, 6]                                                                
+                             </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
 
