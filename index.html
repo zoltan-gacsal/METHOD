@@ -9,316 +9,363 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 
     <div class="container">
         <h1 class="text-center my-4">JavaScript Metódusok</h1>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "concat()" függvény</h5>
-                        <p class="card-text">A JavaScriptben a concat() függvény arra szolgál, hogy két vagy több
-                            tömböt egyesítsen, és egy új tömböt hozzon létre, amely tartalmazza az eredeti tömbök
-                            elemeit.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method1Modal">Példa</button>
+        <div class="card-group ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card  ">
+                        <div class="card-body">
+                            <h5 class="card-title">A "concat()" függvény</h5>
+                            <p class="card-text">A JavaScriptben a concat() függvény arra szolgál, hogy két vagy több
+                                tömböt egyesítsen, és egy új tömböt hozzon létre, amely tartalmazza az eredeti tömbök
+                                elemeit.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method1Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Az "entries()" függvény</h5>
-                        <p class="card-text">Az entries() függvény egy olyan tömb visszaadására szolgál, amely a
-                            neki átadott objektum kulcs, érték párjaiból fog állni.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method2Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Az "entries()" függvény</h5>
+                            <p class="card-text">Az entries() függvény egy olyan tömb visszaadására szolgál, amely a
+                                neki átadott objektum kulcs, érték párjaiból fog állni.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method2Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Az "every()" függvény</h5>
-                        <p class="card-text">Tömb elemeinek az ellenőrzésére használjuk. Callback függvényt vár
-                            paraméterként és True vagy False értékkel tér vissza.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method3Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Az "every()" függvény</h5>
+                            <p class="card-text">Tömb elemeinek az ellenőrzésére használjuk. Callback függvényt vár
+                                paraméterként és True vagy False értékkel tér vissza.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method3Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A fill() függvény</h5>
-                        <p class="card-text">A fill() függvény egy adott értékkel tölti fel a tömb elemeit, vagyis
-                            megváltoztatja az elem/elemek értékét. Ez a függvény minimum két paramétert vár. Az első
-                            paraméter az érték lesz, amivel szeretnénk feltölteni a tömböt, a második a kezdő index
-                            ahonnan szeretnék módosítani a tömb elemeit. Van egy 3. paraméter is, ez akkor fordul elő,
-                            ha nem szeretnénk a tömb végéig eljutni.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method4Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A fill() függvény</h5>
+                            <p class="card-text">A fill() függvény egy adott értékkel tölti fel a tömb elemeit, vagyis
+                                megváltoztatja az elem/elemek értékét. Ez a függvény minimum két paramétert vár. Az első
+                                paraméter az érték lesz, amivel szeretnénk feltölteni a tömböt, a második a kezdő index
+                                ahonnan szeretnék módosítani a tömb elemeit. Van egy 3. paraméter is, ez akkor fordul
+                                elő,
+                                ha nem szeretnénk a tömb végéig eljutni.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method4Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "filter()" függvény</h5>
-                        <p class="card-text">A filter() függvény létrehoz egy új tömböt amely olyan elemeket fog
-                            tartalmazni ami megfelel a függvény feltételének. Ami nem felel meg azokat pedig kihagyja az
-                            új tömbből.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method5Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "filter()" függvény</h5>
+                            <p class="card-text">A filter() függvény létrehoz egy új tömböt amely olyan elemeket fog
+                                tartalmazni ami megfelel a függvény feltételének. Ami nem felel meg azokat pedig
+                                kihagyja az
+                                új tömbből.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method5Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "find()" függvény</h5>
-                        <p class="card-text">A find() a tömbön belüli elemek keresésére szolgál. De ezzel csak az első
-                            olyan elemet találjuk meg ami a feltételre igaz. Ha nem talál ilyet akkor undefined ad
-                            vissza eredményként.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method6Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "find()" függvény</h5>
+                            <p class="card-text">A find() a tömbön belüli elemek keresésére szolgál. De ezzel csak az
+                                első
+                                olyan elemet találjuk meg ami a feltételre igaz. Ha nem talál ilyet akkor undefined ad
+                                vissza eredményként.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method6Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "findIndex()" függvény</h5>
-                        <p class="card-text">A findIndex() a tömbön belüli elemek keresésére szolgál ugyanúgy mint a
-                            find() methódus viszont itt az első talált elem indexét adja vissza és ha nem talál akkor
-                            viszont -1 lesz az eredmény.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method7Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "findIndex()" függvény</h5>
+                            <p class="card-text">A findIndex() a tömbön belüli elemek keresésére szolgál ugyanúgy mint a
+                                find() methódus viszont itt az első talált elem indexét adja vissza és ha nem talál
+                                akkor
+                                viszont -1 lesz az eredmény.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method7Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Az "forEach()" függvény</h5>
-                        <p class="card-text">A forEach() függvény végig megy a tömbön, úgy hogy mi egy adott feladatot,
-                            műveletet adunk hozzá. Így bejárhatjuk és változtathatjuk az adott elemeket a tömbben.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method8Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Az "forEach()" függvény</h5>
+                            <p class="card-text">A forEach() függvény végig megy a tömbön, úgy hogy mi egy adott
+                                feladatot,
+                                műveletet adunk hozzá. Így bejárhatjuk és változtathatjuk az adott elemeket a tömbben.
+                            </p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method8Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "from()" függvény</h5>
-                        <p class="card-text">A from() függvény új tömböt hoz létre úgy, hogy másolatot készít az előző
-                            tömb elemeiből.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method9Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "from()" függvény</h5>
+                            <p class="card-text">A from() függvény új tömböt hoz létre úgy, hogy másolatot készít az
+                                előző
+                                tömb elemeiből.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method9Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Az "includes()" függvény</h5>
-                        <p class="card-text">Az includes() függvény tömbben vagy stringben végez keresést. Így
-                            ellenőrizhetjük, hogy az elem benne van-e a tömbben vagy stringben. Ezáltal mindig true vagy
-                            false lesz az eredmény.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method10Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Az "includes()" függvény</h5>
+                            <p class="card-text">Az includes() függvény tömbben vagy stringben végez keresést. Így
+                                ellenőrizhetjük, hogy az elem benne van-e a tömbben vagy stringben. Ezáltal mindig true
+                                vagy
+                                false lesz az eredmény.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method10Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Az "indexOf()" függvény</h5>
-                        <p class="card-text">Az indexOf() függvény visszaadja az első előfordulás indexét a tömbön belül
-                            ahol megtalálja az elemet amit keres. Ha nem találja akkor -1 lesz a visszaadott érték.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method11Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Az "indexOf()" függvény</h5>
+                            <p class="card-text">Az indexOf() függvény visszaadja az első előfordulás indexét a tömbön
+                                belül
+                                ahol megtalálja az elemet amit keres. Ha nem találja akkor -1 lesz a visszaadott érték.
+                            </p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method11Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Az "isArray()" függvény</h5>
-                        <p class="card-text">Az isArray() függvény megállapítja, hogy egy érték tömb-e vagy sem. Ha az
-                            akkor true ha nem akkor false értékkel tér vissza.
-                        </p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method12Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Az "isArray()" függvény</h5>
+                            <p class="card-text">Az isArray() függvény megállapítja, hogy egy érték tömb-e vagy sem. Ha
+                                az
+                                akkor true ha nem akkor false értékkel tér vissza.
+                            </p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method12Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "join()" függvény</h5>
-                        <p class="card-text">A join() függvény a tömb elemeinek az összefűzésére szolgál. Karaktert vár
-                            ami az elemek között fog elhelyezkedni.
-                        </p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method13Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "join()" függvény</h5>
+                            <p class="card-text">A join() függvény a tömb elemeinek az összefűzésére szolgál. Karaktert
+                                vár
+                                ami az elemek között fog elhelyezkedni.
+                            </p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method13Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "keys()" függvény</h5>
-                        <p class="card-text">A keys() függvény lehetővé teszi hogy az objektumok kulcsait lekérjük.
-                            Tömbön is müködik viszont akkor az elemek indexét fogja visszaadni eredményképpen.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method14Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "keys()" függvény</h5>
+                            <p class="card-text">A keys() függvény lehetővé teszi hogy az objektumok kulcsait lekérjük.
+                                Tömbön is müködik viszont akkor az elemek indexét fogja visszaadni eredményképpen.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method14Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "lastIndexOf()" függvény</h5>
-                        <p class="card-text">Az lastIndexOf() függvény visszaadja az elem utolsó előfordulásának az
-                            indexét a tömbön belül ahol megtalálja azt az elemet amit paraméterként átadtunk neki. Ha
-                            nem találja akkor -1 lesz a visszaadott érték.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method15Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "lastIndexOf()" függvény</h5>
+                            <p class="card-text">Az lastIndexOf() függvény visszaadja az elem utolsó előfordulásának az
+                                indexét a tömbön belül ahol megtalálja azt az elemet amit paraméterként átadtunk neki.
+                                Ha
+                                nem találja akkor -1 lesz a visszaadott érték.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method15Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "length()" függvény</h5>
-                        <p class="card-text">A lenth() függvény a tömbök vagy stringek hosszát adja vissza. Azaz
-                            meghatározhatod, hogy hány elemből áll egy tömb, vagy milyen hosszú egy adott string.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method16Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "length()" függvény</h5>
+                            <p class="card-text">A lenth() függvény a tömbök vagy stringek hosszát adja vissza. Azaz
+                                meghatározhatod, hogy hány elemből áll egy tömb, vagy milyen hosszú egy adott string.
+                            </p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method16Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "map()" függvény
-                        </h5>
-                        <p class="card-text">A map() függvény egy új tömböt hoz létre úgy, hogy az eredeti tömböt nem
-                            változtatja. Paraméternek egy functiont vár amivel a tömb elemeit lehet megváltoztatni és az
-                            új tömbbe belehelyezni.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method17Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "map()" függvény
+                            </h5>
+                            <p class="card-text">A map() függvény egy új tömböt hoz létre úgy, hogy az eredeti tömböt
+                                nem
+                                változtatja. Paraméternek egy functiont vár amivel a tömb elemeit lehet megváltoztatni
+                                és az
+                                új tömbbe belehelyezni.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method17Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "pop()" függvény</h5>
-                        <p class="card-text">A pop() függvény eltávolítja a tömbből az utolsó elemet. Ez a függvény
-                            módosítja az eredeti tömböt. Ha külön változóban ha akarjuk visszakapjuk az eltávolított
-                            elemet, míg az eredeti tömbben törlődik</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method18Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "pop()" függvény</h5>
+                            <p class="card-text">A pop() függvény eltávolítja a tömbből az utolsó elemet. Ez a függvény
+                                módosítja az eredeti tömböt. Ha külön változóban ha akarjuk visszakapjuk az eltávolított
+                                elemet, míg az eredeti tömbben törlődik</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method18Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "push()" függvény</h5>
-                        <p class="card-text">A push() függvény hozzáad a tömb végéhez elemet/elemeket. Ez is módosítja
-                            az eredeti tömböt.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method19Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "push()" függvény</h5>
+                            <p class="card-text">A push() függvény hozzáad a tömb végéhez elemet/elemeket. Ez is
+                                módosítja
+                                az eredeti tömböt.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method19Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "shift()" függvény</h5>
-                        <p class="card-text">a shift() függvény hasonlóképpen müködik mint a pop() függvény kivéve, hogy
-                            itt az első elemet távolítja el és ha szeretném visszakaphatom egy változóban vagy tömbben.
-                        </p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method20Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "shift()" függvény</h5>
+                            <p class="card-text">a shift() függvény hasonlóképpen müködik mint a pop() függvény kivéve,
+                                hogy
+                                itt az első elemet távolítja el és ha szeretném visszakaphatom egy változóban vagy
+                                tömbben.
+                            </p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method20Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "slice()" függvény</h5>
-                        <p class="card-text">A slice() függvény az adott tömbből, stringből kiragadja az elemeket
-                            amelyeket a paraméterek alapján meghatározunk. Két paramétert vár egy kezdő és végindex-et.
-                            A közte levő elemeket tudom így visszakapni. Ez nem módosítja az eredeti tömböt vagy
-                            stringet</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method21Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "slice()" függvény</h5>
+                            <p class="card-text">A slice() függvény az adott tömbből, stringből kiragadja az elemeket
+                                amelyeket a paraméterek alapján meghatározunk. Két paramétert vár egy kezdő és
+                                végindex-et.
+                                A közte levő elemeket tudom így visszakapni. Ez nem módosítja az eredeti tömböt vagy
+                                stringet</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method21Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "some()" függvény</h5>
-                        <p class="card-text">A some() függvény ellenőrzi, hogy egy elem megfelel-e a megadott
-                            feltételnek. Ha megfelel akkor True értékkel tér vissza. A függvény egy callback függvényt
-                            fogad paraméterként itt kell teljesülnie a feltételnek.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method22Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "some()" függvény</h5>
+                            <p class="card-text">A some() függvény ellenőrzi, hogy egy elem megfelel-e a megadott
+                                feltételnek. Ha megfelel akkor True értékkel tér vissza. A függvény egy callback
+                                függvényt
+                                fogad paraméterként itt kell teljesülnie a feltételnek.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method22Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">A "splice()" függvény</h5>
-                        <p class="card-text">A splice() függvény az eredeti tömbön tesz módosítást mégpedig elemet
-                            adhatunk hozzá, távolithatunk el vagy módosíthatjuk. Három paramétert kér, a kezdő indexet,
-                            az eltávolítandó elemek számát és ha beakarunk illeszteni a helyükre valamit akkor az új
-                            elemeket kell megadni.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method23Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A "splice()" függvény</h5>
+                            <p class="card-text">A splice() függvény az eredeti tömbön tesz módosítást mégpedig elemet
+                                adhatunk hozzá, távolithatunk el vagy módosíthatjuk. Három paramétert kér, a kezdő
+                                indexet,
+                                az eltávolítandó elemek számát és ha beakarunk illeszteni a helyükre valamit akkor az új
+                                elemeket kell megadni.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method23Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Az "unshift()" függvény</h5>
-                        <p class="card-text">Az unshift() függvény a tömb elejéhez ad hozzá annyi elemet amennyit
-                            paraméterként átadunk. Ez a függvény módosítja az eredeti tömböt.</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#method24Modal">Példa</button>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Az "unshift()" függvény</h5>
+                            <p class="card-text">Az unshift() függvény a tömb elejéhez ad hozzá annyi elemet amennyit
+                                paraméterként átadunk. Ez a függvény módosítja az eredeti tömböt.</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#method24Modal">Példa</button>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
 
-            
-        </div>
-
-        <!-- Modalok -->
-        <div class="modal fade" id="method1Modal" tabindex="-1" role="dialog" aria-labelledby="method1ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method1ModalLabel">Concat()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                        <pre><code> 
+            <!-- Modalok -->
+            <div class="modal fade" id="method1Modal" tabindex="-1" role="dialog" aria-labelledby="method1ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method1ModalLabel">Concat()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                            <pre><code> 
                             const array1 = [1, 2, 3];
                             const array2 = [4, 5, 6];
                             const newArray = array1.concat(array2);
@@ -326,25 +373,25 @@
                             console.log(newArray);
                             // Output: [1, 2, 3, 4, 5, 6]
                                 </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method2Modal" tabindex="-1" role="dialog" aria-labelledby="method2ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method2ModalLabel">Entries()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                        <pre><code> 
+            <div class="modal fade" id="method2Modal" tabindex="-1" role="dialog" aria-labelledby="method2ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method2ModalLabel">Entries()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                            <pre><code> 
                                 const obj = { 0: 'name', 2: 'email', 3: 'password', 4: 'phone'};
                                 const arr = Object.entries(obj);
     
@@ -356,25 +403,25 @@
                                            2: ['3', 'password']
                                            3: ['4', 'phone']
                             </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method3Modal" tabindex="-1" role="dialog" aria-labelledby="method3ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method3ModalLabel">Every()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                        <pre><code> 
+            <div class="modal fade" id="method3Modal" tabindex="-1" role="dialog" aria-labelledby="method3ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method3ModalLabel">Every()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                            <pre><code> 
                             const numbers = [1, 2, 3, 4, 5];
 
                             const allEven = numbers.every(function(number) {
@@ -384,24 +431,24 @@
                             console.log(allEven); 
                             // false, mert nem mind páros szám
                         </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method4Modal" tabindex="-1" role="dialog" aria-labelledby="method4ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method4ModalLabel">Fill()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method4Modal" tabindex="-1" role="dialog" aria-labelledby="method4ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method4ModalLabel">Fill()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>
                             Első példa: Az első elemet töltjük fel 1-el
 
@@ -419,24 +466,24 @@
                             console.log(array2); 
                             // Output: [1, 1, 1, 4, 5]                            
                         </code></pre>
-                    </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method5Modal" tabindex="-1" role="dialog" aria-labelledby="method5ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method5ModalLabel">Filter()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method5Modal" tabindex="-1" role="dialog" aria-labelledby="method5ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method5ModalLabel">Filter()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                             const number = [12, 10, 21, 35, 54];
                             number.filter(newNumber);
@@ -446,24 +493,24 @@
 
                             // Output: [21, 35, 54]                           
                         </code></pre>
-                    </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method6Modal" tabindex="-1" role="dialog" aria-labelledby="method6ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method6ModalLabel">Find()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method6Modal" tabindex="-1" role="dialog" aria-labelledby="method6ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method6ModalLabel">Find()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                             const number = [1, 2, 3, 4, 5];
                             
@@ -475,24 +522,24 @@
 
                             // Output: [4]  
                          </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method7Modal" tabindex="-1" role="dialog" aria-labelledby="method7ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method7ModalLabel">FindIndex()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method7Modal" tabindex="-1" role="dialog" aria-labelledby="method7ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method7ModalLabel">FindIndex()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 const number = [12, 23, 35, 41, 59];
                                 
@@ -504,25 +551,25 @@
     
                                 // Output: [1]  
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="modal fade" id="method8Modal" tabindex="-1" role="dialog" aria-labelledby="method8ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method8ModalLabel">ForEach()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method8Modal" tabindex="-1" role="dialog" aria-labelledby="method8ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method8ModalLabel">ForEach()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 const number = [11, 34, 65, 41, 59];
                                 
@@ -531,24 +578,24 @@
                                 });                       
                                  // Output: [11, 34, 65, 41, 59]  
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method9Modal" tabindex="-1" role="dialog" aria-labelledby="method9ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method9ModalLabel">From()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method9Modal" tabindex="-1" role="dialog" aria-labelledby="method9ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method9ModalLabel">From()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 const str = 'Hello';
                                 const strArray = Array.from(str);
@@ -556,24 +603,24 @@
                                 console.log(strArray); 
                                 // Output: ['H', 'e', 'l', 'l', 'o']
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method10Modal" tabindex="-1" role="dialog" aria-labelledby="method10ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method10ModalLabel">Includes()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method10Modal" tabindex="-1" role="dialog" aria-labelledby="method10ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method10ModalLabel">Includes()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 const number = [1, 2, 3, 4, 5, 6, 7, 8]
                                 const num = number.includes(5);
@@ -581,24 +628,24 @@
                                 console.log(num);
                                 // Output: true
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method11Modal" tabindex="-1" role="dialog" aria-labelledby="method11ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method11ModalLabel">IndexOf()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method11Modal" tabindex="-1" role="dialog" aria-labelledby="method11ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method11ModalLabel">IndexOf()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 Numbers:
                                 const number = [13, 43, 52, 94, 78,]
@@ -612,24 +659,24 @@
                                 console.log(indexOfWorld); 
                                 // Output: 7
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method12Modal" tabindex="-1" role="dialog" aria-labelledby="method12ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method12ModalLabel">isArray()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method12Modal" tabindex="-1" role="dialog" aria-labelledby="method12ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method12ModalLabel">isArray()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 const number = [1, 2, 3, 4,]
                                 const num = 'Hello, world!';
@@ -639,24 +686,24 @@
                                 // Output: true
                                 // Output: false
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method13Modal" tabindex="-1" role="dialog" aria-labelledby="method13ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method13ModalLabel">Join()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method13Modal" tabindex="-1" role="dialog" aria-labelledby="method13ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method13ModalLabel">Join()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 const number = [1, 2, 3, 4,]
                                 const joinNum = number.join(' and ');
@@ -664,24 +711,24 @@
                                 console.log(joinNum);
                                 // Output: 1 and 2 and 3 and 4
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method14Modal" tabindex="-1" role="dialog" aria-labelledby="method14ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method14ModalLabel">Keys()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method14Modal" tabindex="-1" role="dialog" aria-labelledby="method14ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method14ModalLabel">Keys()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code> 
                                 Array:
                                 const number = [1, 2, 3, 4, 5];
@@ -695,24 +742,24 @@
                                 console.log(keys);
                                 // Output: ['0', '1', '2']                            
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method15Modal" tabindex="-1" role="dialog" aria-labelledby="method15ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method15ModalLabel">lastIndexOf()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method15Modal" tabindex="-1" role="dialog" aria-labelledby="method15ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method15ModalLabel">lastIndexOf()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>  
                                 Numbers:                           
                                 const number = [1, 2, 3, 4, 2, 5];
@@ -726,24 +773,24 @@
                                 console.log(lastindexofstr);
                                 // otuput: 9                   
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method16Modal" tabindex="-1" role="dialog" aria-labelledby="method16ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method16ModalLabel">length()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method16Modal" tabindex="-1" role="dialog" aria-labelledby="method16ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method16ModalLabel">length()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>  
                                 Numbers:                           
                                 const number = [1, 2, 3, 4, 2, 5];
@@ -757,25 +804,25 @@
                                 console.log(strLength);
                                 // otuput: 12                 
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="modal fade" id="method17Modal" tabindex="-1" role="dialog" aria-labelledby="method17ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method17ModalLabel">Map()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method17Modal" tabindex="-1" role="dialog" aria-labelledby="method17ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method17ModalLabel">Map()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 2, 5];
                                 const arr = number.map(myFunction);
@@ -787,24 +834,24 @@
                                 // Output: [2, 4, 6, 8, 4, 10]
     
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method18Modal" tabindex="-1" role="dialog" aria-labelledby="method18ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method18ModalLabel">pop()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method18Modal" tabindex="-1" role="dialog" aria-labelledby="method18ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method18ModalLabel">pop()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 5];
                                 const num = number.pop();
@@ -813,48 +860,48 @@
                                 console.log (number)
                                 // Output: [1, 2, 3, 4]
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method19Modal" tabindex="-1" role="dialog" aria-labelledby="method19ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method19ModalLabel">push()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method19Modal" tabindex="-1" role="dialog" aria-labelledby="method19ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method19ModalLabel">push()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 5];
                                 const num = number.push(6, 7, 8);
                                 console.log(num);
                                 // Output: [1, 2, 3, 4, 5, 6, 7, 8]                            
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="modal fade" id="method20Modal" tabindex="-1" role="dialog" aria-labelledby="method20ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method20ModalLabel">shift()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method20Modal" tabindex="-1" role="dialog" aria-labelledby="method20ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method20ModalLabel">shift()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 5];
                                 const num = number.shift();
@@ -863,50 +910,50 @@
                                 console.log(number);  
                                 // Output: [2, 3, 4, 5,]                       
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="modal fade" id="method21Modal" tabindex="-1" role="dialog" aria-labelledby="method21ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method21ModalLabel">slice()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method21Modal" tabindex="-1" role="dialog" aria-labelledby="method21ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method21ModalLabel">slice()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 5];
                                 const num = number.slice(1, 4);
                                 console.log(num);
                                 // Output: [2, 3, 4]                                                
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="modal fade" id="method22Modal" tabindex="-1" role="dialog" aria-labelledby="method22ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method22ModalLabel">some()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method22Modal" tabindex="-1" role="dialog" aria-labelledby="method22ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method22ModalLabel">some()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 5];
                                 const num = number.some(function(element){
@@ -915,25 +962,25 @@
                                 console.log(num);
                                 // Output: True                                          
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="modal fade" id="method23Modal" tabindex="-1" role="dialog" aria-labelledby="method23ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method23ModalLabel">splice()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method23Modal" tabindex="-1" role="dialog" aria-labelledby="method23ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method23ModalLabel">splice()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
                                 const num = number.splice(2, 2, 11, 13);                         
@@ -942,38 +989,38 @@
                                 console.log(number) 
                                 // Output: [1, 2, 11, 13, 5, 6, 7, 8, 9, 10]                                     
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="modal fade" id="method24Modal" tabindex="-1" role="dialog" aria-labelledby="method24ModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="method24ModalLabel">unshift()</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
+            <div class="modal fade" id="method24Modal" tabindex="-1" role="dialog" aria-labelledby="method24ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="method24ModalLabel">unshift()</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
                             <pre><code>                                                         
                                 const number = [1, 2, 3, 4, 5, 6];
                                 const num = number.unshift(12, 25, 36);                         
                                 console.log(number);                            
                                 // Output: [12, 25, 36, 1, 2, 3, 4, 5, 6]                                                                
                              </code></pre>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
-
-
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
