@@ -21,3 +21,7 @@ body {
 .card-text {
     text-shadow: 0 0 black;
 }
+
+img{
+    width: 100%;
+}
