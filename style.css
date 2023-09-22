@@ -5,3 +5,7 @@ body {
     background-attachment: fixed; 
   }
   
+.wallpaper {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    
+}  
